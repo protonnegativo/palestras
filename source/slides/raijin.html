@@ -1,0 +1,32 @@
+<section id="raijin" data-transition="fade" style="background:#000000;color:#f2f2f2;font-family:'Poppins', sans-serif;padding:112px 128px 176px;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:20px">
+<h2 style="font-family:'Inconsolata', monospace;font-size:76px;font-weight:400;line-height:1.15">Raijin: um arsenal de tools para agentes</h2>
+<p style="font-size:32px;font-weight:300;line-height:1.4;color:#c9c9cf;width:1600px">Cada tool é uma engine conhecida + um redutor. Os mesmos achados, em JSON enxuto, com bem menos tokens para o agente ler.</p>
+</div>
+<div style="display:flex;flex-direction:row;gap:48px">
+<table style="flex:1;font-family:'Inconsolata', monospace;font-size:26px;color:#e4e4e7">
+<tr style="background:#1c1c1f"><th style="width:38%;color:#8b8b93">tool</th><th style="width:40%;color:#8b8b93">engine</th><th style="width:22%;color:#8b8b93;text-align:right">menos tokens</th></tr>
+<tr><td>raijin-probe</td><td>httpx</td><td style="color:#a78bfa;text-align:right">8.9×</td></tr>
+<tr><td>raijin-subs</td><td>subfinder + dnsx</td><td style="color:#a78bfa;text-align:right">27×</td></tr>
+<tr><td>raijin-ports</td><td>naabu + nmap</td><td style="color:#a78bfa;text-align:right">91×</td></tr>
+<tr><td>raijin-crawl</td><td>katana</td><td style="color:#a78bfa;text-align:right">84×</td></tr>
+<tr><td>raijin-js</td><td>katana + JS</td><td style="color:#a78bfa;text-align:right">31×</td></tr>
+<tr><td>raijin-params</td><td>arjun</td><td style="color:#a78bfa;text-align:right">38×</td></tr>
+<tr><td>raijin-scan</td><td>nuclei</td><td style="color:#a78bfa;text-align:right">39–134×</td></tr>
+</table>
+<table style="flex:1;font-family:'Inconsolata', monospace;font-size:26px;color:#e4e4e7">
+<tr style="background:#1c1c1f"><th style="width:38%;color:#8b8b93">tool</th><th style="width:40%;color:#8b8b93">engine</th><th style="width:22%;color:#8b8b93;text-align:right">menos tokens</th></tr>
+<tr><td>raijin-fuzz</td><td>ffuf</td><td style="color:#a78bfa;text-align:right">3–24×</td></tr>
+<tr><td>raijin-tls</td><td>tlsx</td><td style="color:#a78bfa;text-align:right">8.9×</td></tr>
+<tr><td>raijin-secrets</td><td>trufflehog</td><td style="color:#a78bfa;text-align:right">13×</td></tr>
+<tr><td>raijin-xss</td><td>dalfox</td><td style="color:#a78bfa;text-align:right">17×</td></tr>
+<tr><td>raijin-cors</td><td>nativo</td><td style="color:#a78bfa;text-align:right">24×</td></tr>
+<tr><td>raijin-takeover</td><td>dnsx + fingerprints</td><td style="color:#a78bfa;text-align:right">17×</td></tr>
+<tr><td>raijin-diff</td><td>nativo</td><td style="color:#a78bfa;text-align:right">até 32×</td></tr>
+</table>
+</div>
+<p style="font-size:24px;font-weight:300;line-height:1.4;color:#8b8b93">Saída JSON padrão do Raijin vs. saída bruta da engine no mesmo alvo · tokens via tiktoken o200k_base (aproximação) · BENCHMARK.md de cada repo · <span style="color:#a78bfa">github.com/protonnegativo/raijin</span></p>
+<hr style="position:absolute;left:128px;bottom:124px;width:1664px;border-top:2px solid #5a5a60">
+<p style="position:absolute;left:128px;bottom:64px;width:200px;font-size:26px;font-weight:300;color:#8b8b93">19</p>
+<p style="position:absolute;left:1292px;bottom:64px;width:500px;font-size:26px;font-weight:300;color:#8b8b93;text-align:right">VESPASCon 2026</p>
+</section>
