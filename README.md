@@ -1,9 +1,5 @@
-# Construindo um Harness de IA para Pentest e Bug Bounty
+# palestras
 
-Slides da palestra no **VESPASCon 2026** (UTFPR Curitiba, 10/nov/2026), por Dennys Kaluzny Pereira (ProtonNegativo).
+Slides e materiais das minhas palestras, uma pasta por evento.
 
-- `slides.pdf`: a apresentação (32 slides)
-- `source/`: fonte dos slides (um HTML por slide + `deck.json` com a ordem)
-- `assets/`: imagens usadas nos slides
-
-Referências completas: slide 31 (`source/slides/referencias.html`).
+- [`vespascon-2026/`](vespascon-2026/) — Construindo um Harness de IA para Pentest e Bug Bounty
